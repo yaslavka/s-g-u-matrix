@@ -1,0 +1,219 @@
+# These lines define a route using YAML configuration. The controller used by
+# the route (FrameworkBundle:Template:template) is a convenient shortcut when
+# the template can be rendered without executing any logic in your own controller.
+# See https://symfony.com/doc/current/templates.html#rendering-a-template-directly-from-a-route
+homepage:
+  path: /{_locale}
+  controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
+  requirements:
+    _locale: '%app_locales%'
+  defaults:
+    template: default/homepage.html.twig
+    _locale: '%locale%'
+
+
+
+#root:
+#  path: /
+#  controller: App\Controller\QuestionController::root
+
+#signUp:
+#  path: /Sign_up
+#  controller: App\Controller\QuestionController::Sign_up
+
+#signIn:
+#  path: /Sign_in
+#  controller: App\Controller\QuestionController::Sign_in
+
+#resetPassword:
+#  path: /reset-password
+#  controller: App\Controller\QuestionController::reset-password
+
+#leader:
+#  path: /leader
+#  controller: App\Controller\QuestionController::leader
+
+#dashboard:
+#  path: /dashboard
+#  controller: App\Controller\QuestionController::dashboard
+
+#news:
+#  path: /news
+#  controller: App\Controller\QuestionController::news
+
+#aboutUs:
+#  path: /about-us
+#  controller: App\Controller\QuestionController::about-us
+
+#tables:
+#  path: /tables
+#  controller: App\Controller\QuestionController::tables
+
+#personalTable:
+#  path: /personal-table/1
+#  controller: App\Controller\QuestionController::personal-table/1
+
+#personalTable2:
+#  path: /personal-table/2
+#  controller: App\Controller\QuestionController::personal-table/2
+
+#personalTable3:
+#  path: /personal-table/3
+#  controller: App\Controller\QuestionController::personal-table/3
+
+#personalTable4:
+#  path: /personal-table/4
+#  controller: App\Controller\QuestionController::personal-table/4
+
+#personalTable5:
+#  path: /personal-table/5
+#  controller: App\Controller\QuestionController::personal-table/5
+
+#personalTable6:
+#  path: /personal-table/6
+#  controller: App\Controller\QuestionController::personal-table/6
+
+#personalTable7:
+#  path: /personal-table/7
+#  controller: App\Controller\QuestionController::personal-table/7
+
+#personalTable8:
+#  path: /personal-table/8
+#  controller: App\Controller\QuestionController::personal-table/8
+
+#premiumStars:
+#  path: /premium-abidos
+#  controller: App\Controller\QuestionController::premium-abidos
+
+#personalPremiumTable:
+#  path: /personal-premium-table/1
+#  controller: App\Controller\QuestionController::personal-premium-table/1
+
+#personalPremiumTable2:
+#  path: /personal-premium-table/2
+#  controller: App\Controller\QuestionController::personal-premium-table/2
+
+#personalPremiumTable3:
+#  path: /personal-premium-table/3
+#  controller: App\Controller\QuestionController::personal-premium-table/3
+
+#personalPremiumTable4:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-premium-table/4
+
+#personalPremiumTable5:
+#  path: /personal-premium-table/4
+#  controller: App\Controller\QuestionController::personal-premium-table/5
+
+#superStars:
+#  path: /super-abidos
+#  controller: App\Controller\QuestionController::super-abidos
+
+#personalSSTable:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/1
+
+#personalSSTable2:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/2
+
+#personalSSTable3:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/3
+
+#personalSSTable4:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/4
+
+#personalSSTable5:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/5
+
+#personalSSTable6:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/6
+
+#personalSSTable7:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/7
+
+#personalSSTable8:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/8
+
+#personalSSTable9:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/9
+
+#personalSSTable10:
+#  path: /
+#  controller: App\Controller\QuestionController::personal-super-star-table/10
+
+#exchange:
+#  path: /
+#  controller: App\Controller\QuestionController::/exchange
+
+#casinoEnded:
+#  path: /
+#  controller: App\Controller\QuestionController::/casino/ended
+
+#starTrek:
+#  path: /Fate
+#  controller: App\Controller\QuestionController::Fate
+
+#starTrekPlanets:
+#  path: /
+#  controller: App\Controller\QuestionController::/Fate/Maesta
+
+#starTrekStatistic:
+#  path: /
+#  controller: App\Controller\QuestionController::/Fate/statistic
+
+#starTrekFirstLinePlanets:
+#  path: /
+#  controller: App\Controller\QuestionController::/Fate/first-line-Maesta
+
+#starsUp:
+#  path: /
+#  controller: App\Controller\QuestionController::/starsup
+
+#starsUpTable:
+#  path: /
+#  controller: App\Controller\QuestionController::/starsup/table
+
+#starsUpPersonTable:
+#  path: /
+#  controller: App\Controller\QuestionController::/starsup/person/1
+
+#finances:
+#  path: /
+#  controller: App\Controller\QuestionController::/finances
+
+#team:
+#  path: /
+#  controller: App\Controller\QuestionController::/team
+
+#education:
+#  path: /
+#  controller: App\Controller\QuestionController::/education
+
+#educationForm:
+#  path: /
+#  controller: App\Controller\QuestionController::/educations/send-request
+
+#settings:
+#  path: /
+#  controller: App\Controller\QuestionController::/settings
+
+#dashboard:
+#    path: /admin
+#    controller: App\Controller\Admin\DashboardController::index
+
+
+
+
+
+
+
+
+
